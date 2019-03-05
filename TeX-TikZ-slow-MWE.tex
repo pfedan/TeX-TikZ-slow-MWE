@@ -1,0 +1,30 @@
+\documentclass[]{article}
+
+\usepackage{pgfplots}
+\usepackage{graphicx} 
+
+% Comment out the next three lines for faster compilation time
+\tikzexternalize
+\usepgfplotslibrary{external}
+\tikzsetexternalprefix{figtemp/}
+
+\begin{document}
+   	
+   	\section{First}
+   	\begin{tikzpicture}
+   	\tikz \draw[thick,rounded corners=8pt]
+   	(0,0) -- (0,2) -- (1,3.25) -- (2,2) -- (2,0) -- (0,2) -- (2,2) -- (0,0) -- (2,0);
+   	\end{tikzpicture}
+   	
+   	\section{Second}
+   	\begin{tikzpicture}
+   	\draw (-1.5,0) -- (1.5,0);
+   	\draw (0,-1.5) -- (0,1.5);
+   	\end{tikzpicture}
+   	
+   	\section{Third}
+   	\begin{tikzpicture}
+   	\draw (0,0) arc (0:315:1.75cm and 1cm);
+   	\end{tikzpicture}
+   	
+\end{document}
