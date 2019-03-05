@@ -6,9 +6,9 @@ Hello, I am facing very long compile times for a ~130 page document, including a
 
 Then I noticed, that each image takes up to 25 seconds to render (looking into my `pdflatex.log` from Miktex 2.9.
 
-**I created a MWE for demonstrating this effect, which seems to increase with the number of other packages loaded:
+**I created a MWE for demonstrating this effect, which seems to increase with the number of other packages loaded:**
 
-[TeX-TikZ-slow-MWE.tex](TeX-TikZ-slow-MWE.tex)**
+[TeX-TikZ-slow-MWE.tex](TeX-TikZ-slow-MWE.tex)
 
 [![MWE Output][2]][2]
 
